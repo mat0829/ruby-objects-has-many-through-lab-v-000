@@ -8,4 +8,6 @@ class Genre
      @@all << self
    end
    
+   def 
+   
 end
