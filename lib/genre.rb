@@ -13,7 +13,7 @@ class Genre
    end
    
    def songs 
-     
+     Songs.
    end
    
 end
