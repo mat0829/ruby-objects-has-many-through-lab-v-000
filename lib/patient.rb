@@ -16,4 +16,4 @@ class Patient
     Appointment(date, self, doctor)
   end
   
-end
+endew
