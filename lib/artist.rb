@@ -19,7 +19,7 @@ class Artist
   
   
   def songs
-    @@all.select do {|song| puts song 
+    @@all.select do { |song| puts song }
   end
   
 end}
