@@ -19,7 +19,7 @@ class Artist
   
   
   def songs 
-    
+    @songs << song
   end
   
 end
