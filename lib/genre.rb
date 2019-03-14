@@ -13,7 +13,7 @@ class Genre
    end
    
    def songs 
-     Songs.all.select {|| }
+     Songs.all.select {|song| song}
    end
    
 end
