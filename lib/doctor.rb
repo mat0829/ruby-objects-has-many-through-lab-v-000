@@ -21,7 +21,7 @@ class Doctor
   end
   
   def patients
-    Appointment.all.select {|appointment| appointment.patient == self}.collect {|song| song.genre}
+    Appointment.all.select {|appointment| appointment.doctor == self}.collect {|appointment| appointment.patient}
   end
   
 end
