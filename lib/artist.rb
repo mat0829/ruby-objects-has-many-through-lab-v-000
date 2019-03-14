@@ -19,7 +19,7 @@ class Artist
   
   
   def songs
-    @@all 
+    @@all.select do |song| song.
   end
   
 end
